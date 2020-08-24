@@ -119,10 +119,8 @@ static const char *colorname[] = {
 	[15] = "#ffffff", /* white   */
 
 	/* special colors */
-	[256] = "#282a36",
-	[257] = "#f8f8f2",
-	[258] = "#37474f",
-	[259] = "#222222",
+	[256] = "#f8f8f2",
+	[257] = "#222222",
 };
 
 
@@ -130,10 +128,10 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultfg = 257;
-unsigned int defaultbg = 259;
-static unsigned int defaultcs = 257;
-static unsigned int defaultrcs = 257;
+unsigned int defaultfg = 256;
+unsigned int defaultbg = 257;
+static unsigned int defaultcs = 256;
+static unsigned int defaultrcs = 256;
 
 /*
  * Default shape of cursor
